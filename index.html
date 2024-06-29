@@ -12,26 +12,28 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
+      <select id="city">
         <option value="">Select a city</option>
-        <option value="">Warsaw</option>
-        <option value="">Auckland</option>
-        <option value="">Cape Town</option>
-        <option value="">New York</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="America/New_York">New York</option>
+        <option value="Africa/Cairo">Cairo</option>
+        <option value="Australia/Melbourne">Melbourne</option>
       </select>
-      <div class="city" id="warsaw">
-        <div>
-          <h2>Warsaw 🇵🇱</h2>
-          <div class="date">20 June 2024</div>
+      <div id="cities">
+        <div class="city" id="warsaw">
+          <div>
+            <h2>Warsaw</h2>
+            <div class="date">20 June 2024</div>
+          </div>
+          <div class="time">1:24:17 <small>PM</small></div>
         </div>
-        <div class="time">1:24:17 <small>PM</small></div>
-      </div>
-      <div class="city" id="curitiba">
-        <div>
-          <h2>Curitiba 🇧🇷</h2>
-          <div class="date">20 June 2024</div>
+        <div class="city" id="curitiba">
+          <div>
+            <h2>Curitiba</h2>
+            <div class="date">20 June 2024</div>
+          </div>
+          <div class="time">1:24:17 <small>PM</small></div>
         </div>
-        <div class="time">1:24:17 <small>PM</small></div>
       </div>
     </div>
     <footer>
