@@ -19,6 +19,11 @@ select {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+a {
+  color: rgb(83, 121, 121);
+  text-decoration: none;
+}
+
 footer {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
