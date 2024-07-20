@@ -46,11 +46,11 @@ footer {
 
 .container {
   border: 1px solid #594d35;
-  max-width: 700px;
+  max-width: 800px;
   background-color: #e4ded3;
   opacity: 0.85;
   margin: 20px auto 15px;
-  padding: 20px;
+  padding: 30px;
   -webkit-box-shadow: 23px 24px 48px -43px rgba(66, 67, 90, 0.23);
   -moz-box-shadow: 23px 24px 48px -43px rgba(66, 67, 90, 0.23);
   box-shadow: 23px 24px 48px -43px rgba(66, 67, 90, 0.23);
