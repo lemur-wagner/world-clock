@@ -11,14 +11,27 @@ setInterval(function () {
 });
 
 setInterval(function () {
-  let curitibaElement = document.querySelector("#curitiba");
-  let curitibaDateElement = curitibaElement.querySelector(".date");
-  let curitibaTimeElement = curitibaElement.querySelector(".time");
+  let oxfordElement = document.querySelector("#oxford");
+  let oxfordDateElement = oxfordElement.querySelector(".date");
+  let oxfordTimeElement = oxfordElement.querySelector(".time");
 
-  let curitibaTime = moment().tz("Brazil/East");
+  let oxfordTime = moment().tz("Europe/London");
 
-  curitibaDateElement.innerHTML = curitibaTime.format("MMMM Do YYYY");
-  curitibaTimeElement.innerHTML = curitibaTime.format(
+  oxfordDateElement.innerHTML = oxfordTime.format("MMMM Do YYYY");
+  oxfordTimeElement.innerHTML = oxfordTime.format(
+    "h:mm:ss [<small>]A[</small>]"
+  );
+});
+
+setInterval(function () {
+  let buenosAiresElement = document.querySelector("#buenos-aires");
+  let buenosAiresDateElement = buenosAiresElement.querySelector(".date");
+  let buenosAiresTimeElement = buenosAiresElement.querySelector(".time");
+
+  let buenosAiresTime = moment().tz("America/Argentina/Buenos_Aires");
+
+  buenosAiresDateElement.innerHTML = buenosAiresTime.format("MMMM Do YYYY");
+  buenosAiresTimeElement.innerHTML = buenosAiresTime.format(
     "h:mm:ss [<small>]A[</small>]"
   );
 });
